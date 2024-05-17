@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 405.0, 324.0, 1210.0, 890.0 ],
+		"rect" : [ 135.0, 146.0, 877.0, 873.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -78,7 +78,7 @@
 				"box" : 				{
 					"comment" : "(sym + int) bar, chapter, loop_chapter",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -157,7 +157,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 460.5, 464.0, 219.0, 27.0 ],
+					"patching_rect" : [ 460.5, 464.0, 196.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 23.0, 401.999999999999943, 25.0 ],
 					"viewvisibility" : 1
@@ -250,7 +250,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "led",
+							"parameter_longname" : "loop_chapter",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "loop_chapter",
 							"parameter_type" : 2
@@ -266,7 +266,7 @@
 				"box" : 				{
 					"comment" : "(name + value): grid, chapter_count",
 					"id" : "obj-104",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -386,7 +386,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 1 ],
-					"midpoints" : [ 81.5, 180.0, 670.0, 180.0 ],
+					"midpoints" : [ 81.5, 180.0, 647.0, 180.0 ],
 					"source" : [ "obj-5", 1 ]
 				}
 
@@ -399,45 +399,8 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "led", "loop_chapter", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "djazz_navigate_bar_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_navigate_chapter_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_range.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/iterators",
-				"patcherrelativepath" : "../tools/iterators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.541176470588235, 0.552941176470588, 0.564705882352941, 1.0 ],
-		"editing_bgcolor" : [ 0.541176470588235, 0.552941176470588, 0.564705882352941, 1.0 ]
+		"editing_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 	}
 
 }

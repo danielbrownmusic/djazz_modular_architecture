@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 120.0, 149.0, 1152.0, 478.0 ],
+		"rect" : [ 56.0, 131.0, 725.0, 424.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,210 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 4,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 881.0, 300.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 124.75, 368.0, 125.0, 22.0 ],
+									"text" : "song_file::file_path $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 44.75, 104.0, 99.0, 22.0 ],
+									"text" : "routepass NONE"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 124.75, 177.0, 93.75, 22.0 ],
+									"text" : "t s s"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 124.75, 291.0, 201.0, 22.0 ],
+									"text" : "combine folder_path file_name .json"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 199.5, 224.0, 84.0, 22.0 ],
+									"text" : "regexp .+/(.+)/"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-13",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 44.75, 29.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-14",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 124.75, 425.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"midpoints" : [ 54.25, 339.0, 134.25, 339.0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-1", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 1 ],
+									"source" : [ "obj-3", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-8", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 34.0, 107.058601397291, 120.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p get_song_file_path"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-46",
 					"maxclass" : "newobj",
@@ -656,7 +860,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 21.141910969209221, 454.000009655952454, 28.333331823348999 ],
+					"patching_rect" : [ 34.0, 21.141910969209221, 271.000009655952454, 32.333331823348999 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 137.775825166286268, 7.716619288101754, 264.666677474975586, 27.79999828338623 ],
 					"varname" : "song_folder",
@@ -752,7 +956,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1049.065034031867981, 162.37924764221691, 109.999993681907654, 62.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1217, 100, 1680, 1009 ],
+						"client_rect" : [ 830, 100, 1293, 1009 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -775,12 +979,12 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "djazz_master_view.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 34.0, 97.430952055587909, 416.826088666915894, 221.124997509334435 ],
+					"patching_rect" : [ 34.0, 156.430952055587909, 416.826088666915894, 221.124997509334435 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 137.775825166286268, 41.049956356659493, 416.362882000000013, 217.133332014083862 ],
+					"presentation_rect" : [ 137.775825166286268, 41.049956356659493, 416.362882000000013, 269.133332014083862 ],
 					"varname" : "master",
 					"viewvisibility" : 1
 				}
@@ -904,6 +1108,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 1,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"midpoints" : [ 43.5, 88.0, 498.0, 88.0, 498.0, 278.0, 567.731603145599365, 278.0 ],
+					"order" : 0,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -959,7 +1180,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-45::obj-10::obj-13::obj-10" : [ "octave_up[2]", "octave_up", 0 ],
+			"obj-45::obj-10::obj-13::obj-10" : [ "octave_up", "octave_up", 0 ],
 			"obj-45::obj-10::obj-13::obj-11::obj-7" : [ "octave_up_2", "octave_up_2", 0 ],
 			"obj-45::obj-10::obj-13::obj-12::obj-7" : [ "octave_up_3", "octave_up_3", 0 ],
 			"obj-45::obj-10::obj-13::obj-13::obj-7" : [ "octave_up_4", "octave_up_4", 0 ],
@@ -967,10 +1188,10 @@
 			"obj-45::obj-10::obj-13::obj-15::obj-7" : [ "octave_down_2", "octave_down_2", 0 ],
 			"obj-45::obj-10::obj-13::obj-16::obj-7" : [ "octave_down_3", "octave_down_3", 0 ],
 			"obj-45::obj-10::obj-13::obj-17::obj-7" : [ "octave_down_4", "octave_down_4", 0 ],
-			"obj-45::obj-10::obj-13::obj-18" : [ "octave_down[2]", "octave_down", 0 ],
+			"obj-45::obj-10::obj-13::obj-18" : [ "octave_down", "octave_down", 0 ],
 			"obj-45::obj-10::obj-13::obj-24::obj-7" : [ "no_octave", "no_octave", 0 ],
 			"obj-45::obj-10::obj-13::obj-6::obj-7" : [ "octave_up_1", "octave_up_1", 0 ],
-			"obj-45::obj-10::obj-13::obj-8" : [ "octave_transposition[2]", "octave_transposition", 0 ],
+			"obj-45::obj-10::obj-13::obj-8" : [ "octave_transposition", "octave_transposition", 0 ],
 			"obj-45::obj-10::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5", "midi_player_1_loop_5", 0 ],
 			"obj-45::obj-10::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6", "midi_player_1_loop_6", 0 ],
 			"obj-45::obj-10::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7", "midi_player_1_loop_7", 0 ],
@@ -983,7 +1204,7 @@
 			"obj-45::obj-10::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2", "midi_player_1_speed_button_3/2", 0 ],
 			"obj-45::obj-10::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2", "midi_player_1_speed_button_2", 0 ],
 			"obj-45::obj-10::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-12::obj-13::obj-10" : [ "octave_up[3]", "octave_up", 0 ],
+			"obj-45::obj-12::obj-13::obj-10" : [ "octave_up[1]", "octave_up", 0 ],
 			"obj-45::obj-12::obj-13::obj-11::obj-7" : [ "octave_up_2[1]", "octave_up_2", 0 ],
 			"obj-45::obj-12::obj-13::obj-12::obj-7" : [ "octave_up_3[1]", "octave_up_3", 0 ],
 			"obj-45::obj-12::obj-13::obj-13::obj-7" : [ "octave_up_4[1]", "octave_up_4", 0 ],
@@ -991,10 +1212,10 @@
 			"obj-45::obj-12::obj-13::obj-15::obj-7" : [ "octave_down_2[1]", "octave_down_2", 0 ],
 			"obj-45::obj-12::obj-13::obj-16::obj-7" : [ "octave_down_3[1]", "octave_down_3", 0 ],
 			"obj-45::obj-12::obj-13::obj-17::obj-7" : [ "octave_down_4[1]", "octave_down_4", 0 ],
-			"obj-45::obj-12::obj-13::obj-18" : [ "octave_down[3]", "octave_down", 0 ],
+			"obj-45::obj-12::obj-13::obj-18" : [ "octave_down[1]", "octave_down", 0 ],
 			"obj-45::obj-12::obj-13::obj-24::obj-7" : [ "no_octave[1]", "no_octave", 0 ],
 			"obj-45::obj-12::obj-13::obj-6::obj-7" : [ "octave_up_1[1]", "octave_up_1", 0 ],
-			"obj-45::obj-12::obj-13::obj-8" : [ "octave_transposition[3]", "octave_transposition", 0 ],
+			"obj-45::obj-12::obj-13::obj-8" : [ "octave_transposition[1]", "octave_transposition", 0 ],
 			"obj-45::obj-12::obj-15::obj-12::obj-7" : [ "midi_player_2_loop_5", "midi_player_2_loop_5", 0 ],
 			"obj-45::obj-12::obj-15::obj-13::obj-7" : [ "midi_player_2_loop_6", "midi_player_2_loop_6", 0 ],
 			"obj-45::obj-12::obj-15::obj-14::obj-7" : [ "midi_player_2_loop_7", "midi_player_2_loop_7", 0 ],
@@ -1081,7 +1302,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "djazz.audio.buffer_view.maxpat",
+				"name" : "djazz.audio.audio_in.buffer.view.maxpat",
+				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/audio",
+				"patcherrelativepath" : "../audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.audio.audio_in.score.view.maxpat",
+				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/audio",
+				"patcherrelativepath" : "../audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.audio.audio_in_view.maxpat",
 				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/audio",
 				"patcherrelativepath" : "../audio",
 				"type" : "JSON",
@@ -1105,13 +1340,6 @@
 				"name" : "djazz.audio_track_view.maxpat",
 				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/audio",
 				"patcherrelativepath" : "../audio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.factor_oracle_player.view.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/factor_oracle_player",
-				"patcherrelativepath" : "../factor_oracle_player",
 				"type" : "JSON",
 				"implicit" : 1
 			}

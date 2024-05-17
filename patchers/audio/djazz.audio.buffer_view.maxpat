@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 332.0, 431.0, 782.0, 512.0 ],
+		"rect" : [ 124.0, 557.0, 581.0, 512.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,62 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"id" : "obj-48",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 443.0, 140.541651396633142, 69.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.92892124314767, 1.666666388511658, 62.0, 20.0 ],
+					"text" : "RECORD"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 422.0, 17.282415418506616, 81.0, 35.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr record_active",
+					"varname" : "record_active"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-95",
+					"maxclass" : "led",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offcolor" : [ 0.450980392156863, 0.035294117647059, 0.035294117647059, 1.0 ],
+					"oncolor" : [ 1.0, 0.109803921568627, 0.0, 1.0 ],
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 453.0, 90.957202105403894, 21.5, 21.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.92892124314767, 23.887152030656011, 55.559028715711293, 55.559028715711293 ],
+					"varname" : "led"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 79.0, 124.0, 150.0, 20.0 ],
+					"patching_rect" : [ 79.0, 124.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.523497205098238, 65.387152030656011, 76.0, 20.0 ],
 					"text" : "LOAD",
@@ -69,7 +120,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 84.0, 144.0, 643.0, 698.0 ],
+						"rect" : [ 80.0, 391.0, 660.0, 316.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2685,6 +2736,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"source" : [ "obj-13", 1 ]
 				}
 
 			}

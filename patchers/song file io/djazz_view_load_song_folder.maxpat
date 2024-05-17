@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 571.0, 392.0, 578.0, 622.0 ],
+		"rect" : [ 187.0, 406.0, 578.0, 622.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,28 +45,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 98.0, 29.5, 22.0 ],
-					"text" : "init"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 255.25, 206.5, 77.0, 35.0 ],
-					"saved_object_attributes" : 					{
-						"initial" : [ "NONE" ],
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr song_folder",
-					"varname" : "song_folder"
+					"patching_rect" : [ 255.0, 98.0, 43.0, 22.0 ],
+					"text" : "NONE"
 				}
 
 			}
@@ -170,7 +150,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 36.75, 167.0, 264.75, 167.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -184,7 +165,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"midpoints" : [ 152.25, 167.0, 264.75, 167.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -192,7 +173,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"midpoints" : [ 264.5, 167.25, 264.75, 167.25 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -209,13 +190,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}

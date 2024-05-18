@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 145.0, 100.0, 674.0, 419.0 ],
+		"rect" : [ 96.0, 360.0, 734.0, 629.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -439,11 +439,11 @@
 			"obj-65::obj-45::obj-6::obj-9::obj-2" : [ "track_1_mute", "led", 0 ],
 			"obj-65::obj-45::obj-6::obj-9::obj-46" : [ "track_1_unmute", "toggle", 0 ],
 			"obj-65::obj-47::obj-16::obj-1" : [ "loop_chapter", "loop_chapter", 0 ],
-			"obj-65::obj-47::obj-24::obj-15" : [ "bar_number", "bar_number", 0 ],
-			"obj-65::obj-47::obj-24::obj-6" : [ "chapter_loop", "chapter_loop", 0 ],
-			"obj-65::obj-47::obj-24::obj-7" : [ "chapter_number", "chapter_number", 0 ],
-			"obj-65::obj-47::obj-85::obj-3" : [ "grid_view", "grid_view", 0 ],
-			"obj-65::obj-47::obj-85::obj-31" : [ "num_chapters", "num_chapters", 0 ],
+			"obj-65::obj-47::obj-45::obj-24::obj-15" : [ "bar_number", "bar_number", 0 ],
+			"obj-65::obj-47::obj-45::obj-24::obj-6" : [ "chapter_loop", "chapter_loop", 0 ],
+			"obj-65::obj-47::obj-45::obj-24::obj-7" : [ "chapter_number", "chapter_number", 0 ],
+			"obj-65::obj-47::obj-45::obj-85::obj-3" : [ "grid_view", "grid_view", 0 ],
+			"obj-65::obj-47::obj-45::obj-85::obj-31" : [ "num_chapters", "num_chapters", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -567,13 +567,6 @@
 				"name" : "djazz.grid_position_to_beat.maxpat",
 				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/grid",
 				"patcherrelativepath" : "./grid",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.load_song_file_view.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/song file io",
-				"patcherrelativepath" : "./song file io",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -868,20 +861,6 @@
 				"name" : "djazz_master_view_beat_out.maxpat",
 				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/master",
 				"patcherrelativepath" : "./master",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_metro.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/beatclock",
-				"patcherrelativepath" : "./beatclock",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_metro_view.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/beatclock",
-				"patcherrelativepath" : "./beatclock",
 				"type" : "JSON",
 				"implicit" : 1
 			}

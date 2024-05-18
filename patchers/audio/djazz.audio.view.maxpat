@@ -99,7 +99,7 @@
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 30.0,
 							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "Gain",
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
@@ -176,7 +176,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1337.499998927116394, 61.771149896121983, 73.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 922.487949601231207, 57.293608722628278, 73.0, 100.0 ],
+					"presentation_rect" : [ 922.487949601231207, 57.293608722628278, 73.0, 66.0 ],
 					"varname" : "audio_track_3",
 					"viewvisibility" : 1
 				}
@@ -200,7 +200,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1262.499998927116394, 61.771149896121983, 73.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 847.487949601231207, 57.293608722628278, 73.0, 100.0 ],
+					"presentation_rect" : [ 847.487949601231207, 57.293608722628278, 73.0, 66.0 ],
 					"varname" : "audio_track_2",
 					"viewvisibility" : 1
 				}
@@ -224,7 +224,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1187.499998927116394, 61.771149896121983, 73.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 772.487949601231207, 57.293608722628278, 73.0, 100.0 ],
+					"presentation_rect" : [ 772.487949601231207, 57.293608722628278, 73.0, 66.0 ],
 					"varname" : "audio_track_1",
 					"viewvisibility" : 1
 				}
@@ -344,7 +344,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1100.499998927116394, 59.771149896121983, 79.0, 102.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 690.333316385745889, 57.293608722628278, 79.0, 104.0 ],
+					"presentation_rect" : [ 690.333316385745889, 57.293608722628278, 79.0, 70.0 ],
 					"varname" : "audio_track_record",
 					"viewvisibility" : 1
 				}
@@ -371,7 +371,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.333316385746002, 17.782415418506616, 30.0, 30.0 ]
 				}
 
@@ -435,7 +435,7 @@
 					"patching_rect" : [ 259.333316385746002, 125.541651396633142, 74.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 539.185344367156176, 15.293608722628278, 48.18833998139894, 33.0 ],
+					"presentation_rect" : [ 539.185344367156176, 15.293608722628278, 50.0, 33.0 ],
 					"text" : "AUDIO ON",
 					"textjustification" : 1
 				}
@@ -496,7 +496,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 142.166680634021759, 17.782415418506616, 30.0, 30.0 ]
 				}
 

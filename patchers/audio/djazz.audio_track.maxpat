@@ -96,8 +96,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 253.0, 17.0, 42.0, 35.0 ],
-					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -130,8 +130,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 159.0, 17.0, 53.0, 35.0 ],
-					"restore" : [ 84.0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 100 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}

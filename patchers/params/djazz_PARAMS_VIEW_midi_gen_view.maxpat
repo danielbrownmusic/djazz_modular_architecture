@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.0, 322.0, 49.0, 22.0 ],
+					"patching_rect" : [ 36.0, 170.0, 49.0, 22.0 ],
 					"text" : "beat $1"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 322.0, 59.0, 22.0 ],
+					"patching_rect" : [ 130.0, 170.0, 59.0, 22.0 ],
 					"text" : "tempo $1"
 				}
 
@@ -70,7 +70,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.5, 473.0, 30.0, 30.0 ]
+					"patching_rect" : [ 30.5, 249.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -123,7 +123,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 36.0, 172.0, 50.0, 22.0 ],
+					"patching_rect" : [ 36.0, 99.0, 50.0, 22.0 ],
 					"varname" : "number"
 				}
 
@@ -138,7 +138,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 130.0, 172.0, 50.0, 22.0 ],
+					"patching_rect" : [ 130.0, 99.0, 50.0, 22.0 ],
 					"varname" : "number[1]"
 				}
 

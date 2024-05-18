@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 50.0, 110.0, 531.0, 508.0 ],
+		"rect" : [ 781.0, 537.0, 531.0, 508.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -401,7 +401,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 406.0, 100.0, 111.0, 22.0 ],
+									"patching_rect" : [ 132.0, 100.0, 111.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -419,7 +419,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "int", "bang" ],
+									"outlettype" : [ "", "bang", "bang" ],
 									"patching_rect" : [ 50.0, 178.666666750000445, 101.0, 22.0 ],
 									"text" : "djazz_beat_clock",
 									"varname" : "master_clock"
@@ -448,7 +448,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 406.0, 40.0, 30.0, 30.0 ]
+									"patching_rect" : [ 132.0, 40.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -3418,7 +3418,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-9",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -3479,7 +3478,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-4",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,

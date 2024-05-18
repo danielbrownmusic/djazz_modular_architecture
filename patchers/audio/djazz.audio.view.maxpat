@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 89.0, 132.0, 1045.0, 264.0 ],
+		"rect" : [ 43.0, 258.0, 1056.0, 340.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -118,7 +118,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 372.499998927116394, 124.771149896121983, 32.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 533.487949601231094, 133.293608722628278, 35.0, 20.0 ],
+					"presentation_rect" : [ 531.487949601231094, 150.666666388511658, 35.0, 20.0 ],
 					"text" : "beat"
 				}
 
@@ -133,7 +133,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 363.499998927116394, 92.855397493915575, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 567.0, 133.293608722628278, 50.0, 22.0 ],
+					"presentation_rect" : [ 568.487949601231094, 150.666666388511658, 48.0, 22.0 ],
 					"varname" : "number[1]"
 				}
 
@@ -176,7 +176,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1337.499998927116394, 61.771149896121983, 73.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 922.487949601231207, 57.293608722628278, 73.0, 66.0 ],
+					"presentation_rect" : [ 929.903595955490005, 62.293608722628278, 73.0, 66.0 ],
 					"varname" : "audio_track_3",
 					"viewvisibility" : 1
 				}
@@ -200,7 +200,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1262.499998927116394, 61.771149896121983, 73.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 847.487949601231207, 57.293608722628278, 73.0, 66.0 ],
+					"presentation_rect" : [ 854.903595955490005, 62.293608722628278, 73.0, 66.0 ],
 					"varname" : "audio_track_2",
 					"viewvisibility" : 1
 				}
@@ -224,7 +224,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1187.499998927116394, 61.771149896121983, 73.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 772.487949601231207, 57.293608722628278, 73.0, 66.0 ],
+					"presentation_rect" : [ 779.903595955490005, 62.293608722628278, 73.0, 66.0 ],
 					"varname" : "audio_track_1",
 					"viewvisibility" : 1
 				}
@@ -248,7 +248,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 449.5, 244.813947790718089, 917.999999642372131, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.487949958858962, 217.666666388511658, 909.999999642372131, 26.0 ],
+					"presentation_rect" : [ 85.487949958858962, 235.666666388511658, 917.415645996630928, 26.0 ],
 					"varname" : "audio_improviser_3",
 					"viewvisibility" : 1
 				}
@@ -272,7 +272,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 449.5, 213.813947790718089, 917.999999642372131, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.487949958858962, 189.666666388511658, 909.999999642372131, 26.0 ],
+					"presentation_rect" : [ 85.487949958858962, 207.666666388511658, 917.415645996630928, 26.0 ],
 					"varname" : "audio_improviser_2",
 					"viewvisibility" : 1
 				}
@@ -296,7 +296,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 449.5, 186.813947790718089, 917.999999642372131, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.487949958858962, 161.666666388511658, 909.999999642372131, 26.0 ],
+					"presentation_rect" : [ 85.487949958858962, 179.666666388511658, 917.415645996630928, 26.0 ],
 					"varname" : "audio_improviser_1",
 					"viewvisibility" : 1
 				}
@@ -320,7 +320,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 449.5, 12.207202105403894, 644.0, 144.334449291229248 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.487949958858962, -0.333333611488342, 641.999999642372131, 147.0 ],
+					"presentation_rect" : [ 3.487949958858962, -0.333333611488342, 589.999999642372131, 147.0 ],
 					"varname" : "audio_in",
 					"viewvisibility" : 1
 				}
@@ -344,7 +344,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1100.499998927116394, 59.771149896121983, 79.0, 102.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 690.333316385745889, 57.293608722628278, 79.0, 70.0 ],
+					"presentation_rect" : [ 653.333316385745889, 62.293608722628278, 79.0, 66.0 ],
 					"varname" : "audio_track_record",
 					"viewvisibility" : 1
 				}
@@ -396,7 +396,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.416680634021759, 416.375633403732309, 30.0, 30.0 ]
+					"patching_rect" : [ 184.416680634021759, 416.375633403732309, 30.0, 30.0 ]
 				}
 
 			}
@@ -451,7 +451,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 280.999998927116394, 88.957202105403894, 21.5, 21.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 595.185344367156176, 8.293608722628278, 47.0, 47.0 ],
+					"presentation_rect" : [ 598.185344367156176, 8.293608722628278, 47.0, 47.0 ],
 					"varname" : "led[1]"
 				}
 
@@ -554,7 +554,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -570,7 +570,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
-					"order" : 0,
+					"order" : 2,
 					"source" : [ "obj-23", 0 ]
 				}
 

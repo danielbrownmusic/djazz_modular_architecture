@@ -3,18 +3,26 @@ whenever ($v)
     antescofo::stop
 }
 
+@tempovar $pos_to_play(60,1)
 
-/* @tempovar $pos_to_play(60,1)
+whenever ($pos_to_play)
+{
+	 tempo_from_antescofo_in_seconds ($pos_to_play.tempo)
+}
+
+
+
+/*
 ;
 ;$last := $NOW
-;whenever ($pos_to_play)
+whenever ($pos_to_play)
 {
-	; tempo_from_antescofo_in_seconds ($pos_to_play.tempo)
+	 tempo_from_antescofo_in_seconds ($pos_to_play.tempo)
     ; print interval ($NOW - $last)
     ; $last := $NOW
     ; SCORE_OUT ($SCORE_TEMPO)
     ; RT_OUT ($RT_TEMPO)
-    POS_OUT ($pos_to_play.tempo)
+    ; POS_OUT ($pos_to_play.tempo)
 }
 
 
@@ -27,5 +35,4 @@ whenever ($input_tempo)
     ; RT_OUT ($RT_TEMPO)
     POS_OUT ($pos_to_play.tempo)
 }
-
 */

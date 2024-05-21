@@ -876,18 +876,6 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "components messages",
-					"id" : "obj-3",
-					"index" : 0,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1276.564936637878418, 376.09615322893967, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "ctrl variables",
 					"id" : "obj-2",
 					"index" : 0,
@@ -1127,18 +1115,6 @@
 		"parameters" : 		{
 			"obj-29::obj-1" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-29::obj-12" : [ "live.gain~[1]", "Gain", 0 ],
-			"obj-45::obj-10::obj-13::obj-10" : [ "octave_up", "octave_up", 0 ],
-			"obj-45::obj-10::obj-13::obj-11::obj-7" : [ "octave_up_2", "octave_up_2", 0 ],
-			"obj-45::obj-10::obj-13::obj-12::obj-7" : [ "octave_up_3", "octave_up_3", 0 ],
-			"obj-45::obj-10::obj-13::obj-13::obj-7" : [ "octave_up_4", "octave_up_4", 0 ],
-			"obj-45::obj-10::obj-13::obj-14::obj-7" : [ "octave_down_1", "octave_down_1", 0 ],
-			"obj-45::obj-10::obj-13::obj-15::obj-7" : [ "octave_down_2", "octave_down_2", 0 ],
-			"obj-45::obj-10::obj-13::obj-16::obj-7" : [ "octave_down_3", "octave_down_3", 0 ],
-			"obj-45::obj-10::obj-13::obj-17::obj-7" : [ "octave_down_4", "octave_down_4", 0 ],
-			"obj-45::obj-10::obj-13::obj-18" : [ "octave_down", "octave_down", 0 ],
-			"obj-45::obj-10::obj-13::obj-24::obj-7" : [ "no_octave", "no_octave", 0 ],
-			"obj-45::obj-10::obj-13::obj-6::obj-7" : [ "octave_up_1", "octave_up_1", 0 ],
-			"obj-45::obj-10::obj-13::obj-8" : [ "octave_transposition", "octave_transposition", 0 ],
 			"obj-45::obj-10::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5", "midi_player_1_loop_5", 0 ],
 			"obj-45::obj-10::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6", "midi_player_1_loop_6", 0 ],
 			"obj-45::obj-10::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7", "midi_player_1_loop_7", 0 ],
@@ -1151,18 +1127,6 @@
 			"obj-45::obj-10::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2", "midi_player_1_speed_button_3/2", 0 ],
 			"obj-45::obj-10::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2", "midi_player_1_speed_button_2", 0 ],
 			"obj-45::obj-10::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-12::obj-13::obj-10" : [ "octave_up[1]", "octave_up", 0 ],
-			"obj-45::obj-12::obj-13::obj-11::obj-7" : [ "octave_up_2[1]", "octave_up_2", 0 ],
-			"obj-45::obj-12::obj-13::obj-12::obj-7" : [ "octave_up_3[1]", "octave_up_3", 0 ],
-			"obj-45::obj-12::obj-13::obj-13::obj-7" : [ "octave_up_4[1]", "octave_up_4", 0 ],
-			"obj-45::obj-12::obj-13::obj-14::obj-7" : [ "octave_down_1[1]", "octave_down_1", 0 ],
-			"obj-45::obj-12::obj-13::obj-15::obj-7" : [ "octave_down_2[1]", "octave_down_2", 0 ],
-			"obj-45::obj-12::obj-13::obj-16::obj-7" : [ "octave_down_3[1]", "octave_down_3", 0 ],
-			"obj-45::obj-12::obj-13::obj-17::obj-7" : [ "octave_down_4[1]", "octave_down_4", 0 ],
-			"obj-45::obj-12::obj-13::obj-18" : [ "octave_down[1]", "octave_down", 0 ],
-			"obj-45::obj-12::obj-13::obj-24::obj-7" : [ "no_octave[1]", "no_octave", 0 ],
-			"obj-45::obj-12::obj-13::obj-6::obj-7" : [ "octave_up_1[1]", "octave_up_1", 0 ],
-			"obj-45::obj-12::obj-13::obj-8" : [ "octave_transposition[1]", "octave_transposition", 0 ],
 			"obj-45::obj-12::obj-15::obj-12::obj-7" : [ "midi_player_2_loop_5", "midi_player_2_loop_5", 0 ],
 			"obj-45::obj-12::obj-15::obj-13::obj-7" : [ "midi_player_2_loop_6", "midi_player_2_loop_6", 0 ],
 			"obj-45::obj-12::obj-15::obj-14::obj-7" : [ "midi_player_2_loop_7", "midi_player_2_loop_7", 0 ],
@@ -1287,6 +1251,13 @@
 				"name" : "djazz.audio_track_view.maxpat",
 				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/audio",
 				"patcherrelativepath" : "../audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.midi_player_2_router_view.maxpat",
+				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/midiplayer",
+				"patcherrelativepath" : "../midiplayer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1431,7 +1402,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "djazz_midi_player_view.maxpat",
+				"name" : "djazz_midi_player_1_view.maxpat",
+				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/midiplayer",
+				"patcherrelativepath" : "../midiplayer",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz_midi_player_2_view.maxpat",
 				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/midiplayer",
 				"patcherrelativepath" : "../midiplayer",
 				"type" : "JSON",
@@ -1511,13 +1489,6 @@
 				"name" : "djazz_tempo_to_ms.maxpat",
 				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/conversion",
 				"patcherrelativepath" : "../tools/conversion",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_transpose_octave_controller.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/midi effects/transpose octave",
-				"patcherrelativepath" : "../midi effects/transpose octave",
 				"type" : "JSON",
 				"implicit" : 1
 			}

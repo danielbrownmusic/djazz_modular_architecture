@@ -42,11 +42,11 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 24.5, 78.0, 99.0, 22.0 ],
-					"text" : "route beat tempo"
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 24.5, 78.0, 63.0, 22.0 ],
+					"text" : "route beat"
 				}
 
 			}
@@ -85,26 +85,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 203.0, 20.0, 48.0, 35.0 ],
-					"saved_object_attributes" : 					{
-						"initial" : [ 60.0 ],
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr tempo",
-					"varname" : "tempo"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "number",
 					"minimum" : -1,
@@ -114,21 +94,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 123.5, 114.5, 50.0, 22.0 ],
 					"varname" : "number"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-7",
-					"maxclass" : "flonum",
-					"minimum" : 1.0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 217.5, 114.5, 50.0, 22.0 ],
-					"varname" : "number[1]"
 				}
 
 			}
@@ -142,22 +107,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-2", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-3", 1 ]
 				}
 
 			}

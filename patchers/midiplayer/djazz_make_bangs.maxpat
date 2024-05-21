@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 340.0, 149.0, 1217.0, 920.0 ],
+		"rect" : [ 315.0, 178.0, 1217.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 343.0, 25.0, 30.0, 30.0 ]
+					"patching_rect" : [ 418.0, 29.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -198,7 +198,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -806,7 +805,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 352.5, 100.5, 633.666664999999966, 100.5 ],
+					"midpoints" : [ 427.5, 100.5, 633.666664999999966, 100.5 ],
 					"source" : [ "obj-2", 0 ]
 				}
 

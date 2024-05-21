@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "(float) tempo",
+					"id" : "obj-8",
+					"index" : 2,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 125.0, 18.128729148834282, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -406,7 +419,6 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-13",
-																	"int" : 1,
 																	"maxclass" : "gswitch2",
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
@@ -920,7 +932,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 294.0, 40.0, 30.0, 30.0 ]
 								}
 
@@ -967,7 +979,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 326.933908791656449, 107.0, 94.0, 35.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1166,7 +1178,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 580.566091000000029, 18.128729148834282, 77.0, 35.0 ],
-					"restore" : [ "4262_AUDIO_SCORE" ],
+					"restore" : [ "14897_AUDIO_SCORE" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1397,21 +1409,20 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(a) label",
+					"comment" : "(int) beat",
 					"id" : "obj-5",
 					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 182.0, 18.128729148834282, 30.0, 30.0 ]
+					"patching_rect" : [ 93.0, 18.128729148834282, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -1500,9 +1511,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "pattr variables",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1515,9 +1526,9 @@
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 182.0, 346.0, 152.0, 22.0 ],
 					"text" : "djazz_factor_oracle_player",
 					"varname" : "oracle_player"
@@ -1581,7 +1592,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
-					"midpoints" : [ 432.5, 325.0, 324.5, 325.0 ],
+					"midpoints" : [ 432.5, 325.0, 258.0, 325.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1733,6 +1744,13 @@
 					"midpoints" : [ 191.5, 438.0, 455.06609110417179, 438.0 ],
 					"order" : 0,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}

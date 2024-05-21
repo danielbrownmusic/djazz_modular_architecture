@@ -1,18 +1,20 @@
+$outlet := null
+
 NOTE  60 1.0 beat1
 	GFWD for-killall {
-    0.0   mnote 60 79 "0.0.43" 9
-    0.0   mnote 12 100 "0.0.8" 16
-    0.0792393   mnote 0 100 "0.0.404" 16
-    0.030110935   mnote 59 64 "0.0.49" 9
-    0.12361331   mnote 57 58 "0.0.253" 9
-    0.5007924   mnote 55 72 "0.0.48" 9
+    0.0   @command($outlet) 60 79 "0.0.43" 9
+    0.0   @command($outlet) 12 100 "0.0.8" 16
+    0.0792393   @command($outlet) 0 100 "0.0.404" 16
+    0.030110935   @command($outlet) 59 64 "0.0.49" 9
+    0.12361331   @command($outlet) 57 58 "0.0.253" 9
+    0.5007924   @command($outlet) 55 72 "0.0.48" 9
     }
 NOTE  60 1.0 beat2
 	GFWD for-killall {
-    0.0   mnote 57 77 "0.0.43" 9
-    0.0   mnote 12 100 "0.0.8" 16
-    0.0792393   mnote 0 100 "0.0.404" 16
-    0.4088748   mnote 62 69 "0.0.43" 9
+    0.0   @command($outlet) 57 77 "0.0.43" 9
+    0.0   @command($outlet) 12 100 "0.0.8" 16
+    0.0792393   @command($outlet) 0 100 "0.0.404" 16
+    0.4088748   @command($outlet) 62 69 "0.0.43" 9
     }
 NOTE  60 1.0 beat3
 	GFWD for-killall {

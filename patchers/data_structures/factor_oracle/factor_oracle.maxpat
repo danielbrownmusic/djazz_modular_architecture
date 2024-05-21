@@ -481,9 +481,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "dump output (dict)",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -535,7 +535,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1027.0, 292.0, 667.0, 695.0 ],
+						"rect" : [ 571.0, 214.0, 667.0, 695.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -638,7 +638,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "any additional info from retrieval",
 									"id" : "obj-1",
 									"index" : 2,
 									"maxclass" : "outlet",
@@ -892,7 +892,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-41",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -1070,7 +1070,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-41",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -3610,7 +3610,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-106",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -3782,7 +3782,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-143",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -4079,7 +4079,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4090,9 +4090,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "any additional info from get_matching_link",
 					"id" : "obj-37",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4104,7 +4104,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-171",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4116,7 +4116,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-142",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4273,149 +4273,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "djazz_step_until_count.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/iterators",
-				"patcherrelativepath" : "../../tools/iterators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.append_dict.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/dict/nested",
-				"patcherrelativepath" : "../../tools/dict/nested",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.dict_to_obj.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/dict/nested",
-				"patcherrelativepath" : "../../tools/dict/nested",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.does_index_exist.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/dict",
-				"patcherrelativepath" : "../../tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.does_key_exist.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/dict",
-				"patcherrelativepath" : "../../tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.get_at.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/dict",
-				"patcherrelativepath" : "../../tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.get_at_no_error_check.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/dict",
-				"patcherrelativepath" : "../../tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.get_last.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/dict",
-				"patcherrelativepath" : "../../tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.get_size.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/dict",
-				"patcherrelativepath" : "../../tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.name_to_obj.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/dict/nested",
-				"patcherrelativepath" : "../../tools/dict/nested",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.compare_labels.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/data_structures/factor_oracle/compare",
-				"patcherrelativepath" : "./compare",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.link.get_label.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/data_structures/factor_oracle/link",
-				"patcherrelativepath" : "./link",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.link.get_target_state.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/data_structures/factor_oracle/link",
-				"patcherrelativepath" : "./link",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.link.make_new_link.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/data_structures/factor_oracle/link",
-				"patcherrelativepath" : "./link",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.oracle.get_state_dict_name.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/data_structures/factor_oracle/factor_oracle",
-				"patcherrelativepath" : "./factor_oracle",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.state.add_link.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/data_structures/factor_oracle/state",
-				"patcherrelativepath" : "./state",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.state.get_label.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/data_structures/factor_oracle/state",
-				"patcherrelativepath" : "./state",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.state.get_matching_link.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/data_structures/factor_oracle/state",
-				"patcherrelativepath" : "./state",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.state.get_suffix_link.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/data_structures/factor_oracle/state",
-				"patcherrelativepath" : "./state",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.state.set_suffix_link.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/data_structures/factor_oracle/state",
-				"patcherrelativepath" : "./state",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

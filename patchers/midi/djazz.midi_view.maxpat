@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 188.0, 1394.0, 429.0 ],
+		"rect" : [ 30.0, 175.0, 1506.0, 712.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 768.947500467300415, 69.0, 104.666667938232422, 22.0 ],
+					"patching_rect" : [ 670.229539275169373, 71.0, 104.666667938232422, 22.0 ],
 					"text" : "key_msg 110 last"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.697500586509705, 184.777194575199019, 123.0, 22.0 ],
+					"patching_rect" : [ 405.979539394378662, 186.777194575199019, 123.0, 22.0 ],
 					"text" : "params::score_file $1"
 				}
 
@@ -103,7 +103,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "NONE" ],
-					"patching_rect" : [ 504.697500586509705, 122.777195290454756, 283.24999988079071, 25.833333373069763 ],
+					"patching_rect" : [ 405.979539394378662, 124.777195290454756, 283.24999988079071, 25.833333373069763 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 311.096281152755523, 6.849951063767037, 282.75, 22.5 ],
 					"varname" : "score_file_2",
@@ -140,20 +140,21 @@
 				"box" : 				{
 					"args" : [ "midi_player_2" ],
 					"bgmode" : 1,
-					"border" : 1,
+					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-12",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "djazz_midi_player_view.maxpat",
+					"name" : "djazz_midi_player_2_view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 504.697500586509705, 243.152201294898759, 441.166666626930237, 178.083328931076039 ],
+					"patching_rect" : [ 201.364133715629578, 336.152201294898759, 427.96156644821167, 21.801277487022389 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 176.979539394378662, 125.152201294898759, 428.96156644821167, 22.801277487022389 ],
 					"varname" : "midi_player_2",
 					"viewvisibility" : 1
 				}
@@ -163,7 +164,7 @@
 				"box" : 				{
 					"args" : [ "midi_player_1" ],
 					"bgmode" : 1,
-					"border" : 1,
+					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
@@ -171,13 +172,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "djazz_midi_player_view.maxpat",
+					"name" : "djazz_midi_player_1_view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 30.364133715629578, 243.152201294898759, 449.5, 178.083328931076039 ],
+					"patching_rect" : [ 30.364133715629578, 246.235530225974799, 1378.864167213439941, 116.801277487022389 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.096281152755523, 35.049952780380863, 1379.029635113269705, 90.333332180976868 ],
+					"presentation_rect" : [ 4.096281152755523, 35.049952780380863, 1379.029635113269705, 119.333332180976868 ],
 					"varname" : "midi_player_1",
 					"viewvisibility" : 1
 				}
@@ -198,9 +199,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 30.364133715629578, 437.586996546641785, 1378.864167213439941, 306.17391300201416 ],
+					"patching_rect" : [ 30.364133715629578, 380.792134633914429, 1378.864167213439941, 306.17391300201416 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.096281152755523, 130.383284961357731, 1379.029635113269705, 286.333332180976868 ],
+					"presentation_rect" : [ 4.096281152755523, 149.953478781921149, 1379.029635113269705, 286.333332180976868 ],
 					"varname" : "midi_out_bank",
 					"viewvisibility" : 1
 				}
@@ -223,7 +224,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 39.864133715629578, 63.388598717570645, 514.197500586509705, 63.388598717570645 ],
+					"midpoints" : [ 39.864133715629578, 63.388598717570645, 415.479539394378662, 63.388598717570645 ],
 					"order" : 1,
 					"source" : [ "obj-20", 0 ]
 				}
